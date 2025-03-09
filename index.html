@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Art Eye</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://unpkg.com/feather-icons"></script>
+  <!--<script src="https://unpkg.com/@phosphor-icons/web"></script>-->
+</head>
+<body>
+  <header class="header">
+    <nav>
+        <div class="nav__header">
+            <div class="nav__logo">
+              <img src="../image/Art Eye.png" class="img0" alt="">
+                <a href="#">ARTEYE</a>
+            </div>  
+            <div class="nav__menu__btn" id="menu-btn">
+                <span><i data-feather="menu"></i></span>
+            </div>
+            </div>  
+        <ul class="nav__links" id="nav-links">
+            <li><a href="#Beranda">Beranda</a></li>
+            <li><a href="#Hasil Karya">Hasil Karya</a></li>
+            <li><a href="#Jasa">Jasa</a></li>
+            <li><a href="#Tawaran">Tawaran</a></li>
+            <li><a href="#Contact">Contact</a></li>
+            <li><a href="https://accounts.google.com/login?hl=in"><button class="btn">Sign In</button></a></li>
+        </ul>
+    </nav>
+    <div class="section__container header__container">
+        <h1>find the </br> photographer</h1>
+        <form action="/">
+            <button class="btn"><i data-feather="search"></i></button>
+            <input type="text" placeholder="search photographer" />     
+        </form>
+        <p>Temukan Photo, Video, dan Design Menarik!</p>
+    </div>
+</header>
+<script src="https://unpkg.com/scrollreveal"></script>
+
+  <main>
+    <!--Untuk Slider Mulai-->
+    <div class="slider" id="Beranda">
+      <div class="myslide fade" style="display: block;">
+        <div class="txt">
+          <h1>Arayashima</h1>
+          <p>
+            Suatu kota di Negara Jepang yang sangat padat
+          </p>
+        </div>
+        <img src="../image/slider1.jpg" alt="" classs="img1" style="width: 100%; height: 100%;">
+      </div>
+      <div class="myslide fade">
+        <div class="txt">
+          <h1>Perkotaan</h1>
+          <p>
+            Pusat berbisnis untuk perekonomian Kota
+          </p>
+        </div>
+        <img src="../image/slider2.jpg" alt="" class="img2" style="width: 100%; height: 100%;">
+      </div>
+      <div class="myslide fade">
+        <div class="txt">
+          <h1>Pemukiman</h1>
+          <p>
+            Dijadikan tempat untuk beristirahat
+          </p>
+        </div>
+        <img src="../image/slider3.jpg" alt="" class="img3" style="width: 100%; height: 100%;">
+      </div>
+      <div class="myslide fade">
+        <div class="txt">
+          <h1>Mural</h1>
+          <p>
+            Karya seni yang dituangkan dalam bentuk coretan
+          </p>
+        </div>
+        <img src="../image/slider4.jpg" alt="" class="img4" style="width: 100%; height: 100%;">
+      </div>
+
+      <div class="myslide fade">
+        <div class="txt">
+          <h1>Bandung</h1>
+          <p>
+            Suasana tentram yang syahdu dalam hati
+          </p>
+        </div>
+        <img src="../image/slider5.jpg" alt="" class="img5" style="width: 100%; height: 100%;">
+      </div>
+
+      <div class="myslide fade">
+        <div class="txt">
+          <h1>Akses Kota</h1>
+          <p>
+            Jalan utama untuk kemudahan rutinitas
+          </p>
+        </div>
+        <img src="../image/slider6.jpg" alt="" class="img6" style="width: 100%; height: 100%;">
+      </div>
+      <div class="myslide fade">
+        <div class="txt">
+          <h1>Berusaha</h1>
+          <p>
+            Langkah pasti untuk menuju lebih baik
+          </p>
+        </div>
+        <img src="../image/slider7.jpg" alt="" class="img7" style="width: 100%; height: 100%;">
+      </div>
+      <div class="myslide fade">
+        <div class="txt">
+          <h1>Integrasi</h1>
+          <p>
+            Akomodasi mudah dalam transpotasi umum
+          </p>
+        </div>
+        <img src="../image/slider8.jpg" alt="" class="img8" style="width: 100%; height: 100%;">
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      <div class="dotbox" style="text-align: center;">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+        <span class="dot" onclick="currentSlide(7)"></span>
+        <span class="dot" onclick="currentSlide(8)"></span>
+      </div>
+    </div>
+    <!--Slider End-->
+
+    <!--Hasil Karya Mulai-->
+    <section>
+      <div class="content" id="Hasil Karya">
+        <h2>Hasil Karya</h2>
+        <div class="cardGrid">
+          <div class="card">
+            <img src="../image/jatner.jpeg" alt="Jatinegara">
+            <h4>Jatinegara</h4>
+            <p>Bersua bersama matahari dikala terbenam indah yang sunyi</p>
+          </div>
+          <div class="card">
+            <img src="../image/halteGBK.jpeg" alt="Halte GBK">
+            <h4>Halte Gelora Bung Karno</h4>
+            <p>Memiliki banyak ragam cerita dari GBK tersendiri</p>
+          </div>
+          <div class="card">
+            <img src="../image/rooftopGBK.jpeg" alt="Rooftop GBK">
+            <h4>Rooftop The Wolf</h4>
+            <p>Berkomunikasi dalam kata ke kata</p>
+          </div>
+          <div class="card">
+            <img src="../image/dukuhAtas.jpeg" alt="Dukuh Atas">
+            <h4>Dukuh Atas</h4>
+            <p>Tempat untuk terintegrasi di berbagai moda transportasi</p>
+          </div>
+          <div class="card">
+            <img src="../image/futuristik.jpeg" alt="Futuristik">
+            <h4>Roh Project by Bagus Pandega</h4>
+            <p>Konseptual pluralistik yang menghubungkan alam dan teknologi</p>
+          </div>
+          <div class="card">
+            <img src="../image/HI.jpeg" alt="HI">
+            <h4>Bundaran Hotel Indonesia</h4>
+            <p>Memiliki banyak makna dan kenangan di wilayah ini</p>
+          </div>
+          <div class="card">
+            <img src="../image/zebracross.jpeg" alt="zebracross">
+            <h4>Zebracross di Tengah Kota</h4>
+            <p>Tempat penyebrangan yang ramah bagi disabilitas dalam berakomodasi</p>
+          </div>
+          <div class="card">
+            <img src="../image/candi.jpeg" alt="candi">
+            <h4>Cahaya</h4>
+            <p>Cahaya akan selalu bersinar dikala badai</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Hasil Karya End-->
+
+    <!--Jasa Mulai-->
+    <section>
+    <div class="section__container jasa__container" id="Jasa">
+      <h2 class="section__headerJasa">Most Popular Service</h2>
+          <div class="jasa__grid">
+              <div class="jasa__card">
+                  <img src="../image/bay1.jpg" alt="jasa" class="gambar1" style:"width:50%;height:50%;"/>
+                  <p>CapturedMoments</p>
+                  <h4>The Baby Season's</h4>
+                  <div>    
+                      <div class="rating">
+                          <span><i data-feather="star"></i></span>
+                          5.0 (623)
+                      </div>
+                      <div class="price">Start from: <span> Rp. 799.000,00</span></div>
+                  </div>
+              </div>
+              <div class="jasa__card">
+                  <img src="../image/graduation.jpg" alt="jasa" class="gambar2"/>
+                  <p>CapturedMoments</p>
+                  <h4>The Graduation</h4>
+                  <div>    
+                      <div class="rating">
+                          <span><i data-feather="star"></i></span>
+                          4.97 (878)
+                      </div>
+                      <div class="price">Start from: <span> Rp. 399.000,00</span></div>
+                  </div>
+              </div>
+              <div class="jasa__card">
+                  <img src="../image/fotoKeluarga.jpg" alt="jasa" class="gambar3"/>
+                  <p>CapturedMoments</p>
+                  <h4>Our Family</h4>
+                  <div>    
+                      <div class="rating">
+                          <span><i data-feather="star"></i></span>
+                          4.94 (1.5k+)
+                      </div>
+                      <div class="price">Start from: <span> Rp. 699.000,00</span></div>
+                  </div>
+              </div>
+              <div class="jasa__card">
+                  <img src="../image/personal.jpg" alt="jasa" class="gambar4"/>
+                  <p>CapturedMoments</p>
+                  <h4>The Personal</h4>
+                  <div>    
+                      <div class="rating">
+                          <span><i data-feather="star"></i></span>
+                          5.0 (373)
+                      </div>
+                      <div class="price">Start from: <span> Rp. 359.000,00</span></div>
+                  </div>
+              </div>
+              <div class="jasa__card">
+                  <img src="../image/prewed.jpg" alt="jasa" class="gambar5"/>
+                  <p>CapturedMoments</p>
+                  <h4>The Adventure Life</h4>
+                  <div class="bintang">    
+                      <div class="rating">
+                          <span><i data-feather="star"></i></span>
+                          5.0 (1.5k+)
+                      </div>
+                      <div class="price">Start from: <span> Rp. 1.299.000,00</span></div>
+                  </div>
+              </div>
+          </div>
+    </div>
+  </section>
+  <!--Jasa End-->
+
+  <!--Penawaran Awal-->
+  <section class="section__container tawaran__container" id="Tawaran">
+    <div class="tawaran__grid">
+        <div class="tawaran__content">
+            <h4>Temukan Keseruan Lainnya yang Anda Inginkan!</h4>
+        <div class="tawaran__btn">
+            <a href="https://www.instagram.com/arteyeach/"><button class="buttonGabung">Mari Bergabung</button></a>
+        </div>
+        </div>
+        <div class="tawaran__image">
+            <img src="../image/adrian.png" class="gambarAdrian">
+        </div>
+        <div class="tawaran__image2">
+            <img src="../image/hope.png" class="gambarRakesh">
+        </div>
+    </div>
+  </section>
+  <!--Penawaran End-->
+
+  <!--Team Kontribusi Awal-->
+  <div class="flip-main">
+    <h1>Meet Our Team</h1>
+    <div class="containerFlip">
+      <div class="row">
+        <!--Flip Card Start-->
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="../image/adrian.png" alt="flip-card" class="gambarFlip1">
+            </div>
+            <div class="flip-card-back">
+              <div class="text">
+                <h3>Adrian Eka Ramadhani</h3>
+                <p>
+                  Nama Panggilan: Adrian <br>
+                  Kelas : BM 4A <br>
+                  NIM : 2203421031 <br>
+                  Hobi : Olahraga Sepeda <br>
+                  Alasan Masuk BM : Tertarik dengan dunia teknologi yang terus berkembang pesat. <br>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Flip Card End-->
+        <!--Flip Card Start-->
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="../image/Rakesh.png" alt="flip-card" class="gambarFlip2">
+            </div>
+            <div class="flip-card-back">
+              <div class="text">
+                <h3>Rakesh Sharma Pramujio</h3>
+                <p>
+                  Nama Panggilan: Rakesh <br>
+                  Kelas : BM 4A <br>
+                  NIM : 2203421033 <br>
+                  Hobi : GYM <br>
+                  Alasan Masuk BM : Peluang di dunia telekomunikasi sangat luas. <br>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Flip Card End-->
+      </div>
+    </div>
+  </div>
+  <!--Team Kontribusi End-->
+  </main>
+
+  <footer class="footer" id="Contact">
+    <div class="mainfoot">
+
+        <div class="title">
+            <h2>ARTEYE</h2>
+        </div>
+        
+        <div class="contact-details">
+            <div class="contacttitle">
+                <h1>Contact</h1>
+            </div>
+            
+            <div class="sosmed">
+                <div class="email sos">
+                  
+                    <img src="../image/Gmail Logo.jpeg"  alt="">
+                    <a href="arteye.id@gmail.com">arteye.id@gmail.com</a>
+                  
+                </div>
+
+                <div class="ig sos">
+                  
+                    <img src="../image/instagram logo.jpeg" alt="">
+                    <a href="https://www.instagram.com/arteyeach/">Instagram</a>  
+                  </div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="copyright">
+      <h4>&copy; ARTEYE. All rights reserved 2024. Develop by <a href="https://www.instagram.com/adrianekaramadhanii/" target="_blank">Adrian Eka Ramadhani</a> and <a href="https://www.instagram.com/rksshrm/" target="_blank">Rakesh Sharma Pramujio</a></h4>
+      <p>Pemrograman Berbasis Web, Broadband Multimedia, Politeknik Negeri Jakarta.</p>
+    </div>
+</footer>
+  <script src="main.js"></script>
+  <script>feather.replace();</script>
+</body>
+</html>
